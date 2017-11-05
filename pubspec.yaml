@@ -1,0 +1,14 @@
+name: query_bot
+description: A discord bot which answers dice-based statistical queries.
+version: 0.0.1
+author: Jonah Williams <jonahwilliams@google.com>
+
+environment:
+  sdk: '>=1.24.1 <2.0.0'
+
+dependencies:
+  charcode: ^1.1.1
+  din: ^0.1.0-alpha+5
+
+dev_dependencies:
+  test: ^0.12.0
